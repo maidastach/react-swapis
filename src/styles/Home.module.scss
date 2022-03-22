@@ -1,0 +1,24 @@
+@import 'colors';
+
+.container{
+    background-color: $back;
+    min-height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.filmlist{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-block: .5rem;
+    color: $blue;
+}
+
+.filmlist span:hover{
+    cursor: pointer;
+}

@@ -1,0 +1,28 @@
+@import 'colors';
+
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    width: 100vw;
+    color: $blue;
+    background-color: $orange;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 2rem;
+}
+
+.content h1{
+    cursor: default
+}
+
+.homepage:hover{
+    color: wheat !important;
+}
+

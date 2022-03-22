@@ -1,0 +1,48 @@
+@import 'colors';
+
+.container{
+    background-color: $back;
+    min-height: 80vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    text-align: center;
+    color: $blue;
+    padding-inline: 1rem;
+}
+
+.container span{
+    font-weight: bold;
+}
+
+.character{
+    cursor: pointer;
+    margin-block: .2rem;
+}
+
+.character:hover{
+    color: green !important;
+}
+
+.tooltip{
+    width: 400px;
+    background-color: rgba(128, 128, 128, 0.404);
+    position: fixed;
+    top: 30%;
+    right: 7%;
+    padding: 1rem;
+    border-radius: 20%;
+  }
+
+.tooltip a{
+    font-weight: bold;
+}
+
+.closeTooltip{
+    color: red;
+    position: absolute;
+    right: 15%;
+    cursor: pointer;
+}
