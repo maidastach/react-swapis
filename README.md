@@ -5,6 +5,10 @@ SWAPI, React and NextJS App
 
 Consume the Star Wars API (SWAPI) using React, NextJS.
 
+## Acknowledgements
+
+ - [Run the App](https://swapi.salderosa.com)
+
 • Home screen contains a list of films pulled from the SWAPI
 
 • List is searchable
@@ -73,12 +77,12 @@ If you have any feedback, please reach out to us at info@salderosa.com
 
 Clone the project
 ```bash
-  git clone https://github.com/maidastach/swapi
+  git clone https://github.com/maidastach/react-swapis
 ```
 
 Go to the project directory
 ```bash
-  cd swapi
+  cd react-swapis
 ```
 
 Install dependencies
@@ -88,7 +92,7 @@ Install dependencies
 
 Start the React server
 ```bash
-  npm run dev
+  npm start
 ```
 
 Run the application at
@@ -98,6 +102,6 @@ Run the application at
   
 ## Tech Stack
 
-**Client:** React, Next.js
+**Client:** React
 
   
